@@ -1,0 +1,135 @@
+*, html {
+    margin: 0;
+}
+
+body {
+    background: url("easel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.inputBoxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+}
+
+.ross {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    align-self: end;
+}
+
+.instructions {
+    margin: 70px auto;
+    color: black;
+    display: inline-block;
+    word-spacing: double;
+    padding: 0 50px;
+    border-radius: 5px;
+}
+
+.instructions h2 {
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
+.instructions h3 {
+    margin: 10px 0 0 0;
+}
+
+
+
+input {
+    border-radius: 20px;
+    width: 65px;
+    outline: none;
+    border: 3px solid black;
+    margin-left: 3px;
+    text-indent: 7px;
+}
+
+.input {
+    margin-left: 20px;
+}
+
+.input h3 {
+   text-align: center;
+   color: white;
+}
+
+input[type=color] {
+    border: 1px solid black;
+    border-radius: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 18px;
+    margin-left: 23px;
+}
+
+.container-grid {
+        display: block;
+}
+
+.container {
+    display: grid;
+    height: 460px;
+    width: 460px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+
+.btn {
+    height: 30px;
+    margin-top: 13px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+}
+
+#color h3 {
+    margin-right: 23px;
+}
+
+#clear h3{
+    margin: 0;
+    color: black;
+}
+
+#random h3 {
+    color: black;
+}
+
+@media only screen and (max-width: 1199px) {
+    .ross {
+        display: none;
+    }
+     .container-grid {
+        display: block;
+    }
+    .container {
+        margin: 30px auto 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header h1{
+        margin-top: 100px;
+    }
+}

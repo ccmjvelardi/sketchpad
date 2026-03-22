@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SketchPad</title>
+</head>
+<body>
+    <header>
+        <h1>Sketch Pad</h1>
+    </header>
+    <div class="inputBoxes">
+        <div class="input">
+            <h3>Blocks</h3>
+            <input type="text" value="20" id="gridSize">
+        </div>
+        <div class="input">
+            <h3 id="color">Pick A Color</h3>
+            <input type="color" class="color" value="#cd0033">
+        </div>
+        <div class="input">
+            <button class="btn" id="random"><h3>Random Color</h3></button>
+        </div>
+        <div class="input">
+            <button class="btn" id="clear"><h3>Clear</h3></button>
+        </div>
+    </div>
+    <div class="container-grid">
+        <img src="ross.png" class="ross" alt="Bob Ross">
+        <div class="container">
+            <div class="instructions">
+                <h2>Instructions</h2>
+                <h3>1. Type any number from 2-100 in the Blocks input then press enter to determine the amount of blocks
+                    you want. For example, if you type 20 you'll get a 20x20 grid. Now because the screen doesn't change size but only changes
+                    the amount of blocks, the higher the number the smaller the pixels being drawn will be. 
+                </h3>
+                <h3>2. Select a color and click and hold down your mouse. 
+                </h3>
+                <h3>3. Once you clear the pad, to be able to draw again just enter another value in the Blocks input. 
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
