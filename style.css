@@ -92,6 +92,7 @@ input[type=color] {
     border-radius: 3px;
     margin: 30px auto;
     background-color: white;
+    touch-action: none;
 }
 
 
